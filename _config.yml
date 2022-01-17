@@ -28,7 +28,7 @@ twitter_username: vperdana
 github_username:  vicperdana
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
