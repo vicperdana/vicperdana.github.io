@@ -27,6 +27,9 @@ url: "https://blog.vicperdana.com" # the base hostname & protocol for your site,
 twitter_username: vperdana
 github_username:  vicperdana
 addthis: true
+disquss:
+ - shortname: blog-vicperdana-com
+  
 
 # Build settings
 theme: minima
