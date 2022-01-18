@@ -22,17 +22,18 @@ comments: true
   {% if site.addthis %}
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61e6444281b110be"></script>
     {% endif %}
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+
+    
+
 
 
 
   {% if site.addthis %}
       <div class="addthis_inline_share_toolbox" style="float:left"></div>
       {% endif %}
-  
-  {%- include disqus.html -%}
+  {% if site.disqus.shortname %}
+      {% include disqus_comments.html %}
+  {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
