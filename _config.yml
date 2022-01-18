@@ -23,7 +23,7 @@ email: me@vicperdana.com
 description: >- # this means to ignore newlines until "baseurl:"
   A tech-focused blog bringing various learnings - working as App Innovation Cloud Solution Architect @ MSFT based out of Melbourne, Australia.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.vicperdana.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.vicperdana.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vperdana
 github_username:  vicperdana
 
