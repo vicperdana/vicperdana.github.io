@@ -1,4 +1,25 @@
-title: Vic Perdana's blog
-description: A tech-focused blog for cloudy's folks - Cloud Solution Architect @ MSFT.  Content are my own opinion/experiences.
+title: TechLand
+author: Vic Perdana
+navbar-links:
+  About Me: "aboutme"
+  Author's home: "https://vicperdana.com"
+
+description: A tech-focused blog for cloudy's folks
 show_downloads: true
+domain: blog.vicperdana.com
+url: https://blog.vicperdana.com
 theme: jekyll-theme-cayman
+social-network-links:
+  email: "me@vicperdana.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  github: vicperdana
+  twitter: vperdana
+  linkedin: vperdana
+
+share-links-active:
+  twitter: true
+  linkedin: true
+
+url-pretty: "blog.vicperdana.com"
+post_search: true
+
