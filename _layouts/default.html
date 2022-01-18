@@ -13,10 +13,12 @@
     {% include head-custom.html %}
   </head>
   <body>
+    
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    {% if site.addthis %}
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61e6444281b110be"></script>
-
+    {% endif %}
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
@@ -31,6 +33,9 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
+      {% if site.addthis %}
+      <div class="addthis_inline_share_toolbox" style="float:left"></div>
+      {% endif %}
       
       <footer class="site-footer">
         {% if site.github.is_project_page %}
