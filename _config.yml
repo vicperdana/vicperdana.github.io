@@ -29,7 +29,7 @@ github_username:  vicperdana
 addthis: true
 disqus:
   shortname: blog-vicperdana-com
-  
+show_excerpts: true
 
 # Build settings
 theme: minima
