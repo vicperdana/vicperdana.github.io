@@ -8,7 +8,7 @@ description: A tech-focused blog for cloudy's folks
 show_downloads: true
 domain: blog.vicperdana.com
 url: https://blog.vicperdana.com
-theme: jekyll-theme-cayman
+theme: jekyll-theme-dinky
 linkedin_username: vperdana
 twitter_username: vperdana
 github_username: vicperdana
