@@ -57,6 +57,23 @@ header_pages:
 # Build settings
 theme: minima
 
+# categories
+
+jekyll-archives:
+  enabled: all
+  layout: archive
+  enabled:
+    - categories
+  enabled:
+    - year
+    - month
+    - tags
+  
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-archives
