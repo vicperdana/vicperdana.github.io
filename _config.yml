@@ -4,13 +4,15 @@ description: >-
   A tech-focused blog for cloudy's folks
 twitter_username: vperdana
 github_username: vicperdana
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: contrast
 search: false
 
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+repository: vicperdana/vicperdana.github.io
+github: [metadata]
 
 # Outputting
 permalink: /:categories/:title/
@@ -28,8 +30,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-url: "https://blog.vicperdana.com" 
-baseurl: "/"
+#url: "https://blog.vicperdana.com" 
+#baseurl: "/"
 #show_downloads: false
 #show_excerpts: true # set to true to show excerpts on the homepage
 #addthis: true
@@ -90,7 +92,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-repository: vicperdana/vicperdana.github.io
-github: [metadata]
 
