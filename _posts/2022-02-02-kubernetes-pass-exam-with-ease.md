@@ -52,7 +52,7 @@ Remember the early days of Virtual machines, apart from the greater flexibility 
 <figcaption>Source: Microsoft docs: What are the benefits of containers and orchestrators</figcaption>
 </figure>
 
-Welcome to microservices, key aspect of this architecture is that you break down a big monolith archiecture into multiple single-purpose component.  While this allows you to decouple a big singular architecture, it creates interesting dilemma, things can be more complex due to 1) number of components (and containers) that is increasing and 2) the need for these containers (in different microservices) to communicate and 3) the need to manage all of these!
+Welcome to microservices, key aspect of this architecture is that you break down a big monolith architecture into multiple single-purpose component.  While this allows you to decouple a big singular architecture, it creates interesting dilemma, things can be more complex due to 1) number of components (and containers) that is increasing and 2) the need for these containers (in different microservices) to communicate and 3) the need to manage all of these!
 
 With this in mind, container orchestration such as K8s provides the whole suite to manage these growing number of containers, such as how to maintain the availability of the applications, how to respond to spikes in load, secure sensitive information used by containers, etc. 
 
