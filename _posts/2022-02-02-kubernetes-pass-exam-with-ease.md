@@ -112,4 +112,4 @@ Voila! :sunglasses:
 # What's next
 It's time for you to show off your achievements & relax a bit.  These certs demonstrate to your employer or prospective employer your practical ability on basic / intermediate Kubernetes concepts - but this should be seen as a stepping stone to immerse yourself in the world of K8s.  
 
-> Just a word of warning, running and maintaining K8s can be proven complex and therefore leveraging services provided by cloud providers such as [AKS][https://azure.microsoft.com/en-au/services/kubernetes-service/#overview) and [Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) - check them out!
+> Just a word of warning, running and maintaining K8s can be proven complex and therefore leveraging services provided by cloud providers such as [AKS](https://azure.microsoft.com/en-au/services/kubernetes-service/#overview) and [Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) - check them out!
