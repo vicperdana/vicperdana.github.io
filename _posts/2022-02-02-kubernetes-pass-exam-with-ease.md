@@ -7,7 +7,6 @@ categories:
   - certification
 tags:
   - kubernetes
-  - certification
 ---
 There are numerous articles / blog posts providing countless tips to pass your CKA / CKAD exam. A quick Internet search "tips to pass CKA CKAD exam" will render a total of 39,100 results under 0.45 seconds.  There are many awesome tips you can find to pass the exams and I am sharing my personal journey achieving these certs as well as understanding the "why" of these exams which helped me appreciate the varous concepts introduced in Kubernetes. 
 
