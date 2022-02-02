@@ -3,6 +3,7 @@ title: "How to pass Kubernetes exams with ease*"
 excerpt_separator: "<!--more-->"
 layout: single
 toc: true
+classes: wide
 categories:
   - certification
 tags:
