@@ -9,7 +9,7 @@ categories:
 tags:
   - kubernetes
 ---
-There are numerous articles / blog posts providing countless tips to pass your CKA / CKAD exam. A quick Internet search "tips to pass CKA CKAD exam" will render a total of 39,100 results under 0.45 seconds.  There are many awesome tips you can find to pass the exams and I am sharing my personal journey achieving these certs as well as understanding the "why" of these exams which helped me appreciate the varous concepts introduced in Kubernetes. 
+There are numerous articles / blog posts providing countless tips to pass your CKA / CKAD exam. A quick Internet search ["tips to pass CKA CKAD exam"](https://www.google.com/search?q=tips+to+pass+cka+ckad+exam&oq=tips+to+pass+cka+ckad+exam&aqs=chrome..69i57.704j0j7&sourceid=chrome&ie=UTF-8) will render a total of 39,100 results under 0.45 seconds.  There are many awesome tips you can find to pass the exams and I am sharing my personal journey achieving these certs as well as understanding the "why" of these exams which helped me appreciate the various concepts introduced in Kubernetes. 
 
 I recently passed CKAD and CKA exam with score of ~90 on a 1st pass :raised_hands: and while they're not perfect, I am glad to have achieved the scores with relative ease and I'd like to share how I prepared to get there; spoiler alert, preparation takes time and grit; especially if you're new to the world of containers.  
 
@@ -44,7 +44,7 @@ Moving forward, the world's IT infrastructure is filled with (lots of) virtual m
 <figcaption>Source: Kubernetes official documentation: What is Kubernetes</figcaption>
 </figure>
 
-## Orhestration to the rescue
+## Orchestration to the rescue
 
 Remember the early days of Virtual machines, apart from the greater flexibility it provides, there's a lot of hype about how you do capacity management correctly - or otherwise, oversubscription occurs!  This is not too dissimilar to container world, except that things are a bit complicated.
 
@@ -54,7 +54,7 @@ Remember the early days of Virtual machines, apart from the greater flexibility 
 
 Welcome to microservices, key aspect of this architecture is that you break down a big monolith archiecture into multiple single-purpose component.  While this allows you to decouple a big singular architecture, it creates interesting dilemma, things can be more complex due to 1) number of components (and containers) that is increasing and 2) the need for these containers (in different microservices) to communicate and 3) the need to manage all of these!
 
-With this in mind, container orchestration such as K8s provides the whole suite to manage these growing number of containers, such as how to mantain the availability of the applications, how to respond to spikes in load, secure sensitive information used by containers, etc. 
+With this in mind, container orchestration such as K8s provides the whole suite to manage these growing number of containers, such as how to maintain the availability of the applications, how to respond to spikes in load, secure sensitive information used by containers, etc. 
 
 Want to find out about the history of containers and Kubernetes - check out this documentary ([part 1](https://youtu.be/BE77h7dmoQU) and [part 2](https://youtu.be/318elIq37PE)).
 
@@ -76,7 +76,7 @@ If you have done some IT certifications or have been around in the industry, you
 Refer to [candidate handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-rules-and-policies) for more information. 
 
 ## Learn at your own pace
-At this point, I would take some time to learn every single topic from the curriculum.  You can use various on-demand courses such as *[the one](https://kodekloud.com/learning-path-kubernetes/)* most people are recommending (I personally use this) - which can also be accessed via UDemy.  You can get similar lessons from [Pluralsight](https://app.pluralsight.com/explore/certifications/topics/kubernetes), [ACloudGuru](https://acloudguru.com/training-library/kubernetes-training), [Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) etc. 
+At this point, I would take some time to learn every single topic from the curriculum.  You can use various on-demand courses such as *[the one](https://kodekloud.com/learning-path-kubernetes/)* most people are recommending (I personally use this) - which can also be accessed via uDemy.  You can get similar lessons from [Pluralsight](https://app.pluralsight.com/explore/certifications/topics/kubernetes), [ACloudGuru](https://acloudguru.com/training-library/kubernetes-training), [Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) etc. 
 
 The main thing is that you spend the time exploring the concepts as well as applying those concepts in practice. 
 
@@ -84,7 +84,7 @@ The main thing is that you spend the time exploring the concepts as well as appl
 
 ### K8s the Hard Way
 
-If you're new to Kubernetes or simply curious about what makes up K8s, I really recommend going through [K8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) *at least once* - as noted by Kelsey, whilst this is a great resource for study, you would not want to run this in production but use this as a playground to get more intimate with Kubernetes. 
+If you're new to K8s or simply curious about what makes up K8s, I really recommend going through [K8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way) *at least once* - as noted by Kelsey, whilst this is a great resource for study, you would not want to run this in production but use this as a playground to get more intimate with K8s. 
 
 Getting it right the first time is not the purpose here, in most likelihood, you may not get it right the first time (hence the title!) and the time you spend on *diagnosing, troubleshooting, and fixing* is the most valuable thing you get from this exercise. 
 
@@ -110,6 +110,6 @@ Voila! :sunglasses:
 ![CKAD](/assets/images/CKAD_cert.png){: width="500"}
 
 # What's next
-It's time for you to show off your achievements & relax a bit.  These certs demonstrate to your employer or prospective employer your practical ability on basic / intermediate Kubernetes concepts - but this should be seen as a stepping stone to immerse yourself in the world of K8s.  
+It's time for you to show off your achievements & relax a bit.  These certs demonstrate to your employer or prospective employer your practical ability on basic / intermediate K8s concepts - but this should be seen as a stepping stone to immerse yourself in the world of K8s.  
 
-> Just a word of warning, running and maintaining K8s can be proven complex and therefore leveraging services provided by cloud providers such as [AKS](https://azure.microsoft.com/en-au/services/kubernetes-service/#overview) and [Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) - check them out!
+> Just a word of warning, running and maintaining K8s can be *really hard* and therefore leveraging services provided by cloud providers such as [AKS](https://azure.microsoft.com/en-au/services/kubernetes-service/#overview) and [Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) is recommended - check them out!
