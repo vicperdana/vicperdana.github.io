@@ -1,15 +1,11 @@
 title: TechLand
 email: me@vicperdana.com
-description: > 
+description: >-
   A tech-focused blog for cloudy's folks
 twitter_username: vperdana
 github_username: vicperdana
 minimal_mistakes_skin: contrast
 search: true
-
-url: "https://blog.vicperdana.com" 
-show_excerpts: true # set to true to show excerpts on the homepage
-addthis: true
 
 
 # Build settings
@@ -21,6 +17,23 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Australia/Sydney
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+url: "https://blog.vicperdana.com" 
+baseurl: "/"
+#show_downloads: false
+#show_excerpts: true # set to true to show excerpts on the homepage
+#addthis: true
+
 
 author:
   name: Vic Perdana
@@ -78,10 +91,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+repository: vicperdana/vicperdana.github.io
+github: [metadata]
+

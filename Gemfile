@@ -8,7 +8,7 @@
 #gem 'jekyll-archives'
 #gem 'jemoji'
 #gem "minimal-mistakes-jekyll"
-gem "webrick", "~> 1.7"
+
 
 source "https://rubygems.org"
 
@@ -27,3 +27,4 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+gem "webrick", "~> 1.7"

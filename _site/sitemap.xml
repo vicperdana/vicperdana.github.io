@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/certification/kubernetes-pass-exam-with-ease/</loc>
+<loc>https://github.com/pages/vicperdana/certification/kubernetes-pass-exam-with-ease/</loc>
 <lastmod>2022-02-02T00:00:00+11:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://github.com/pages/vicperdana/about/</loc>
+</url>
+<url>
+<loc>https://github.com/pages/vicperdana/categories/</loc>
+</url>
+<url>
+<loc>https://github.com/pages/vicperdana/</loc>
+</url>
+<url>
+<loc>https://github.com/pages/vicperdana/tags/</loc>
+</url>
+<url>
+<loc>https://github.com/pages/vicperdana/posts/</loc>
 </url>
 </urlset>
