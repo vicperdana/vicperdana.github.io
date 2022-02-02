@@ -1,81 +1,78 @@
 title: TechLand
-author:
-  name: Vic Perdana
-  email: me@vicperdana.com
-description: > # this means to ignore newlines until "show_excerpts:"
+email: me@vicperdana.com
+description: > 
   A tech-focused blog for cloudy's folks
+twitter_username: vperdana
+github_username: vicperdana
+minimal_mistakes_skin: contrast
+search: true
 
 url: "https://blog.vicperdana.com" 
-
 show_excerpts: true # set to true to show excerpts on the homepage
 addthis: true
-disqus:
-  shortname: blog-vicperdana-com
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%d %-b, %Y"
-  skin: dark
-  # generate social links in footer
-  social_links:
-    twitter: vperdana
-    github:  vicperdana
-    devto: vicperdana
-    linkedin: vperdana
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-    # GitLab instances
-    # gitlab:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-- about.md
-
 # Build settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: contrast
+markdown: kramdown
+
+author:
+  name: Vic Perdana
+  bio: "Engineer by night, Architect by day"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.vicperdana.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/vperdana"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vicperdana"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/vperdana"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vicperdana"
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "blog-vicperdana-com"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # categories
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-jekyll-archives:
-  enabled: all
-  layout: archive
-  enabled:
-    - categories
-  enabled:
-    - year
-    - month
-    - tags
-  
-collections:
-  archives:
-    output: true
-    permalink: /archives/:path/
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-archives
- - jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
