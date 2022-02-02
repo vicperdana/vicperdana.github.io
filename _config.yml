@@ -4,8 +4,8 @@ description: >-
   A tech-focused blog for cloudy's folks
 twitter_username: vperdana
 github_username: vicperdana
-minimal_mistakes_skin: contrast
-search: true
+minimal_mistakes_skin: dirt
+search: false
 
 
 # Build settings
