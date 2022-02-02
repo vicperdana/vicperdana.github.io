@@ -11,7 +11,7 @@ tags:
 ---
 There are numerous articles / blog posts providing countless tips to pass your CKA / CKAD exam. A quick Internet search "tips to pass CKA CKAD exam" will render a total of 39,100 results under 0.45 seconds.  There are many awesome tips you can find to pass the exams and I am sharing my personal journey achieving these certs as well as understanding the "why" of these exams which helped me appreciate the varous concepts introduced in Kubernetes. 
 
-I recently passed CKAD and CKA exam with score of ~90 on a 1st pass :raised_hand: and while they're not perfect, I am glad to have achieved the scores with relative ease and I'd like to share how I prepared to get there; spoiler alert, preparation takes time and grit; especially if you're new to the world of containers.  
+I recently passed CKAD and CKA exam with score of ~90 on a 1st pass :raised_hands: and while they're not perfect, I am glad to have achieved the scores with relative ease and I'd like to share how I prepared to get there; spoiler alert, preparation takes time and grit; especially if you're new to the world of containers.  
 
 Side note: Even though I haven't taken the CKS exam, I would highly suspect you can use this advice too... and if it changes, I'll update the post :wink:
 
@@ -35,7 +35,7 @@ K8s will not be born without Containers and likewise, containers would not be as
 
 Starting from Physical servers, this creates minimal efficiency, every server is designated for a single operating system which can host possibly handful of applications and more often than not it's for a single application - just imagine, one whole physical unit which takes time to rack and stack is only designated for a single web server.  What about 3-tier application with highly available requirements. 
 
-virtualization brings in additional optimization where you split physical server resources into logical units called Virtual machines.  Each virtual machine hosts its own operating system.  The main benefit with this approach is that there's a little barrier of entry to traditional deployment since you can bring the entire OS with its application and transition them to a deployable unit of virtual machine aka. P2V - Physical to Virtual.
+Virtualization brings in additional optimization where you split physical server resources into logical units called Virtual machines.  Each virtual machine hosts its own operating system.  The main benefit with this approach is that there's a little barrier of entry to traditional deployment since you can bring the entire OS with its application and transition them to a deployable unit of virtual machine aka. P2V - Physical to Virtual.
 
 Moving forward, the world's IT infrastructure is filled with (lots of) virtual machines on-premises and the cloud and given the popularity of the cloud, it triggers many companies to break in and compete in the cloud space.  One technology that came about was containers, popularised by Docker. Containers in some ways are similar to VMs, but they increase the level abstraction by sharing properties of operating system to host the application.  Similar to VM, containers have their own filesystem, allocated CPU and memory, and others. One of the benefits with this approach is that containers are much more portable than VM as they have independent properties from the underlying infrastructure.  Finally, considering how lightweight containers are, they allow infrastructure operators to achieve much higher density.
 
