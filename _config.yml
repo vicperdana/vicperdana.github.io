@@ -10,8 +10,17 @@ search: true
 url: "https://blog.vicperdana.com" 
 show_excerpts: true # set to true to show excerpts on the homepage
 addthis: true
+
+
 # Build settings
 markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Australia/Sydney
 
 author:
   name: Vic Perdana
