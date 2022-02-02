@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Hello :wave: 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Vic Perdana, currently working as a Cloud Solution Architect at Microsoft. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+⚡ I’m an avid learner on anything DevOps, Cloud-Native, and Open Source.
 
-
-[jekyll-organization]: https://github.com/jekyll
+🔭 I’m a maintainer and contributor to the following projects:
+- [PSDocs-vscode](https://github.com/Microsoft/PSDocs-vscode): a Visual Studio code extension for PSDocs.Azure
+- [PSDocs.Azure](https://github.com/Azure/PSDocs.Azure): Generate documentation from Azure infrastructure as code (IaC) artifacts.
