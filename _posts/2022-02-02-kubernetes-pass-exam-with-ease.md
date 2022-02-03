@@ -39,7 +39,7 @@ Virtualization brings in additional optimization where you split physical server
 
 Moving forward, the world's IT infrastructure is filled with (lots of) virtual machines on-premises and the cloud and given the popularity of the cloud, it triggers many companies to break in and compete in the cloud space.  One technology that came about was containers, popularised by Docker. Containers in some ways are similar to VMs, but they increase the level abstraction by sharing properties of operating system to host the application.  Similar to VM, containers have their own filesystem, allocated CPU and memory, and others. One of the benefits with this approach is that containers are much more portable than VM as they have independent properties from the underlying infrastructure.  Finally, considering how lightweight containers are, they allow infrastructure operators to achieve much higher density.
 
-<figure><a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"> <img src="https://d33wubrfki0l68.cloudfront.net/26a177ede4d7b032362289c6fccd448fc4a91174/eb693/images/docs/container_evolution.svg" alt="What is Kubernetes" width="500"/> </a>
+<figure><a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"> <img src="https://d33wubrfki0l68.cloudfront.net/26a177ede4d7b032362289c6fccd448fc4a91174/eb693/images/docs/container_evolution.svg" alt="What is Kubernetes" width="1000"/> </a>
 <figcaption>Source: Kubernetes official documentation: What is Kubernetes</figcaption>
 </figure>
 
