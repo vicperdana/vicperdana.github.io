@@ -76,7 +76,7 @@ If you have done some IT certifications or have been around in the industry, you
 Refer to [candidate handbook](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-rules-and-policies) for more information. 
 
 ## Learn at your own pace
-At this point, I would take some time to learn every single topic from the curriculum.  You can use various on-demand courses such as *[the one](https://kodekloud.com/learning-path-kubernetes/)* most people are recommending (I personally use this) - which can also be accessed via uDemy.  You can get similar lessons from [Pluralsight](https://app.pluralsight.com/explore/certifications/topics/kubernetes), [ACloudGuru](https://acloudguru.com/training-library/kubernetes-training), [Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) etc. 
+At this point, I would take some time to learn every single topic from the curriculum.  You can use various on-demand courses such as *[the one](https://kodekloud.com/learning-path-kubernetes/)* most people are recommending (I personally used this) - which can also be accessed via uDemy.  You can get similar lessons from [Pluralsight](https://app.pluralsight.com/explore/certifications/topics/kubernetes), [ACloudGuru](https://acloudguru.com/training-library/kubernetes-training), [Linux Foundation](https://training.linuxfoundation.org/training/kubernetes-fundamentals/) etc. 
 
 The main thing is that you spend the time exploring the concepts as well as applying those concepts in practice. 
 
