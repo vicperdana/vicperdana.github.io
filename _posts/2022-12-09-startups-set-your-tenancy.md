@@ -12,11 +12,11 @@ tags:
   - foundation
 ---
 
-As founders, your focus is to launch your product to the market as soon as possible.  Who don't? In this market, revenue/profit driven strategies are paramount, and cloud makes this a reality. 
+As founders, your focus is to launch your product to the market as soon as possible.  Who don't? In this market, revenue/profit driven strategies are paramount, and cloud makes this a reality. Especially as you take advantage of commercial marketplace in Azure.  Who wouldn't? With fee as low as ["3%"](https://learn.microsoft.com/en-us/azure/marketplace/marketplace-commercial-transaction-capabilities-and-considerations#commercial-marketplace-service-fees) and ["80% acquisition expected to be made via digital channels"](https://www.gartner.com/en/newsroom/press-releases/2020-09-15-gartner-says-80--of-b2b-sales-interactions-between-su), you don't want to miss out. 
 
-Often, we encountered founders who created accounts a few years back and once they built, incubated, and launched their products to their market, they have to re-structure their Azure access and move off from their consumer email addresses e.g., Outlook, Hotmail, Gmail accounts as they expand their market penetration via Microsoft Commercial marketplace. And whilst there is nothing preventing anyone from creating their first subscription this way, you may want to re-consider and think about how you plan to use the subscription for production use to ensure seamless transition.
+Often, we encountered founders who created accounts a few years back and once they built, incubated, and launched their products to their market, they have to re-structure their Azure access and move off from their consumer email addresses e.g., Outlook, Hotmail, Gmail accounts and as they expand their market penetration via Microsoft Commercial marketplace, they encounter roadblocks due to the way their Azure is set up originally. And whilst there is nothing preventing anyone from creating and using their first Azure subscription this way, you may want to re-consider and think about how you organise the subscription for production use to ensure seamless transition in the future.
 
-This post is targeted for start-up founders who are setting up an Azure subscription for the first time, gives you tips to set up your tenancy right from the get-go, more especially as you take advantage of commercial marketplace in Azure.  Who doesn't, with fee as low as 3% and ["80% acquisition expected to be made via digital channels"](https://www.gartner.com/en/newsroom/press-releases/2020-09-15-gartner-says-80--of-b2b-sales-interactions-between-su), you don't want to miss out. 
+This post is targeted for start-up founders who are setting up an Azure subscription for the first time, gives you tips to set up your tenancy right from the get-go
 
 Bring in the cloud... :cloud: :sunny:
 ![the cloud](/assets/images/cloud.webp){: width="1000"}
@@ -36,7 +36,7 @@ When you create a subscription for the first time, you will also create Azure Ac
 A *personal* Microsoft account is an account that you use for your personal, non-work-related purposes. This might include using services like Outlook.com for your personal email or using OneDrive to store and access your personal files. A *work* Microsoft account, on the other hand, is an account that is provided to you by your employer and is intended for use in connection with your job. This account might give you access to additional services and resources that are provided by your employer, such as a corporate email account or the ability to access your company's intranet. In the context of this blog post is on the use of Microsoft Partner Center, as this service requires you to use a work account. 
 
 # The tips
-Here are some tips to sign up to Azure the right way from the get-go which should make future transition easier as you leverage Microsoft commercial marketplace via Partner Center.  
+Here are some tips to sign up to Azure the right way from the get-go which should make future transition easier as you leverage Microsoft commercial marketplace via ["Partner Center"](https://partner.microsoft.com/en-GB/).  
 
 ## Tip #1: Do not use the "Default Directory" Azure AD Tenant
 This is where most founders may not realise that the AAD tenant they are using is derived from their personal email address! For example: "joeblogsoutlook.onmicrosoft.com".  You may not want to use this for building your production resources so I recommend ["creating a new AD tenant"](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-new-tenant). 
