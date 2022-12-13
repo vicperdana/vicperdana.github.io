@@ -30,7 +30,7 @@ Azure offers the ability to set up subscriptions so you can be billed for only t
 ## Azure AD
 When you create a subscription for the first time, you will also create Azure Active Directory (AD), when you go to azure.com and click "Sign up" - you will be directed to a wizard that provisions your subscription, enter in those juicy payment details information and as part of this subscription creation, Azure will automatically create a new Azure Active Directory with the name of "Default Directory".  Will discuss shortly why it is often *not a good idea* to use this tenant for production use - note: will refer this as *original* Azure AD tenant.
 
-![AD Tenant](/assets/images/defaultadtenant.jpeg){: width="800"}
+![AD Tenant](/assets/images/defaultadtenant.jpg){: width="800"}
 
 ### Personal vs. Work account
 A *personal* Microsoft account is an account that you use for your personal, non-work-related purposes. This might include using services like Outlook.com for your personal email or using OneDrive to store and access your personal files. A *work* Microsoft account, on the other hand, is an account that is provided to you by your employer and is intended for use in connection with your job. This account might give you access to additional services and resources that are provided by your employer, such as a corporate email account or the ability to access your company's intranet. In the context of this blog post is on the use of Microsoft Partner Center, as this service requires you to use a work account. 
