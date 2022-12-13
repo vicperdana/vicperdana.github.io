@@ -56,7 +56,7 @@ Create a new user account and assign it with your domain name and follow [securi
 ## Tip #4: Transfer your subscription to the new Azure AD tenant
 Since the subscription is assigned to the original Azure AD tenant, you want to [move the subscription to the new tenant](https://learn.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription).  Or if you have an existing Azure AD tenant created as part of Office 365 subscription, transfer the subscription to that tenant and assign an administrative role to the subscription. 
 
-> **_NOTE:_**  I would strongly recommend doing an impact assessment if you have any existing resources in your current subscription.
+> **_NOTE:_**  I would strongly recommend doing an impact assessment if you have any existing resources in your current subscription before doing the transfer.
 
 ## Tip #5: (optional) if no longer required, remove your original Azure AD tenant
 To keep it simple, remove your original Azure AD tenant (the one that was automatically created) including your personal e.g., outlook.com; user account.
