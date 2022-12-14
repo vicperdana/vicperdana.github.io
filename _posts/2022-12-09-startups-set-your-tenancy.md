@@ -18,7 +18,7 @@ Often, we encountered founders who created accounts a few years back and once th
 
 Whilst there is nothing preventing anyone from creating and using their first Azure subscription this way, you may want to re-consider and think about how you organise the subscription for production use to ensure seamless transition in the future.
 
-This post is targeted for start-up founders who are setting up an Azure subscription for the first time, gives you tips to set up your tenancy right from the get-go
+This post is targeted for start-up founders who are setting up an Azure subscription for the first time, gives you tips to set up your tenancy right from the get-go.
 
 Bring in the cloud... :cloud: :sunny:
 ![the cloud](/assets/images/cloud.webp){: width="1000"}
