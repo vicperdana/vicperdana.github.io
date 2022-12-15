@@ -53,7 +53,11 @@ This is where most founders may not realise that the AAD tenant they are using i
 When you start a new company, you would have the name of your company and have secured a domain name from a domain name registrar - I would recommend [adding this domain](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain) to your newly created Azure Active Directory.
 
 ## Tip #3: Create a new user account with your own domain
-Create a new user account and assign it with your domain name and follow [security best practice](https://learn.microsoft.com/en-us/azure/active-directory/roles/security-planning) when assigning admin roles.
+Create a new user account and assign it with your domain name and follow [security best practice](https://learn.microsoft.com/en-us/azure/active-directory/roles/security-planning) when assigning admin roles. Focus on critical recommendations as a starting point:
+- Use Azure AD Privileged Identity Management
+- Identify and categorize accounts that are in highly privileged roles
+- Define at least two emergency access accounts
+- Turn on multi-factor authentication and register all other highly privileged single-user non-federated administrator accounts
 
 ## Tip #4: Transfer your subscription to the new Azure AD tenant
 Since the subscription is assigned to the original Azure AD tenant, you want to [move the subscription to the new tenant](https://learn.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription).  Or if you have an existing Azure AD tenant created as part of Office 365 subscription, transfer the subscription to that tenant and assign an administrative role to the subscription. 
