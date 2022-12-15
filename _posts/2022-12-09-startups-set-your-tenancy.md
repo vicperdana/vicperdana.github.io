@@ -42,10 +42,12 @@ A *personal* Microsoft account is an account that you use for your personal, non
 # The tips
 Here are some tips to sign up to Azure the right way from the get-go which should make future transition easier as you leverage Microsoft commercial marketplace via [Partner Center](https://partner.microsoft.com/en-GB/).  
 
-## Tip #1: Do not use the "Default Directory" Azure AD Tenant
-This is where most founders may not realise that the AAD tenant they are using is derived from their personal email address! For example: "joeblogsoutlook.onmicrosoft.com".  You may not want to use this for building your production resources so I recommend using the same Azure AD tenant used by Office 365 subscription.  Skip to [Tip #4](#tip-4-transfer-your-subscription-to-the-new-azure-ad-tenantTip-#4:-Transfer-your-subscription-to-the-new-Azure-AD-tenant) to transfer your subscription.
+> The objective of these tips is to ensure you use the intended Azure AD tenant with your custom domain name attached; this is important since the same tenant will be used and linked to Partner Center as you build offerings to sell in the Marketplace.
 
-**Alternatively** if you do not have an existing Office 365 subscription, I recommend [creating a new AD tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-new-tenant) and use a name that closely resembles your company's name.  The domain name you choose will have "onmicrosoft.com", which is globally unique suffix, carefully choose the name as you cannot modify it later.  This may not be as relevant as you will add a new domain to the Azure AD tenant - see [Tip #2](#tip-2-add-your-domain-to-the-new-azure-ad-tenant).
+## Tip #1: Do not use the "Default Directory" Azure AD Tenant
+This is where most founders may not realise that the AAD tenant they are using is derived from their personal email address! For example: "joeblogsoutlook.onmicrosoft.com".  You may not want to use this for building your production resources so I recommend using the same Azure AD tenant used by Microsoft 365 subscription.  Skip to [Tip #4](#tip-4-transfer-your-subscription-to-the-new-azure-ad-tenantTip-#4:-Transfer-your-subscription-to-the-new-Azure-AD-tenant) to transfer your subscription.
+
+**Alternatively** if you do not have an existing Microsoft 365 subscription, I recommend [creating a new AD tenant](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-new-tenant) and use a name that closely resembles your company's name.  The domain name you choose will have "onmicrosoft.com", which is globally unique suffix, carefully choose the name as you cannot modify it later.  This may not be as relevant as you will add a new domain to the Azure AD tenant - see [Tip #2](#tip-2-add-your-domain-to-the-new-azure-ad-tenant).
 
 ## Tip #2: Add your domain to the new Azure AD tenant
 When you start a new company, you would have the name of your company and have secured a domain name from a domain name registrar - I would recommend [adding this domain](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain) to your newly created Azure Active Directory.
@@ -73,4 +75,4 @@ Hopefully, the tips above will help you establish an incredible Azure journey :m
 # Oops...I haven't done any of the above and have built everything under my "Default Directory" Azure AD tenant and need access to Microsoft Partner Center
 Please keep an eye on another blog post suggesting ways to remediate this and get yourself selling in Marketplace as soon as possible. Till next time :raised_hands:
 
-**Disclaimer: The ideas, opinions, and recommendations expressed in this blog post are those of the author only, and do not necessarily reflect the views of the author’s employer or any other organization. In no event shall the author(s) be liable for any claims or damages or other liability arising from the use of advice given in this blog**
+**Disclaimer:** *The ideas, opinions, and recommendations expressed in this blog post are those of the author only, and do not necessarily reflect the views of the author’s employer or any other organization. In no event shall the author(s) be liable for any claims or damages or other liability arising from the use of advice given in this blog*
