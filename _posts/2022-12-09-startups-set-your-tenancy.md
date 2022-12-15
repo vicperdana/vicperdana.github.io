@@ -30,7 +30,7 @@ Let's start with the basics and understand some key terminologies when setting u
 Azure offers the ability to set up subscriptions so you can be billed for only the resources you use. There are many types of subscriptions in Azure - Pay-As-You-Go subscriptions are best for customers or partners who want the flexibility to pay for only the resources you use and is commonly chosen when setting up Azure subscription for the first time.
 
 ## Azure AD
-When you create a subscription for the first time, you will also create Azure Active Directory (AD), when you go to azure.com and click "Sign up" - you will be directed to a wizard that provisions your subscription, enter in those juicy payment details information and as part of this subscription creation, Azure will automatically create a new Azure Active Directory with the name of "Default Directory".  Will discuss shortly why it is often *not a good idea* to use this tenant for production use.
+When you create a subscription for the first time, you will also create Azure Active Directory (AAD), when you go to azure.com and click "Sign up" - you will be directed to a wizard that provisions your subscription, enter in those juicy payment details information and as part of this subscription creation, Azure will automatically create a new Azure Active Directory with the name of "Default Directory".  Will discuss shortly why it is often *not a good idea* to use this tenant for production use.
 
 > **_NOTE:_** will refer this initial tenant as *original* Azure AD tenant.
 
@@ -60,7 +60,7 @@ Create a new user account and assign it with your domain name and follow [securi
 - Turn on multi-factor authentication and register all other highly privileged single-user non-federated administrator accounts
 
 ## Tip #4: Transfer your subscription to the new Azure AD tenant
-Since the subscription is assigned to the original Azure AD tenant, you want to [move the subscription to the new tenant](https://learn.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription).  Or if you have an existing Azure AD tenant created as part of Office 365 subscription, transfer the subscription to that tenant and assign an administrative role to the subscription. 
+Since the subscription is assigned to the original Azure AD tenant, you want to [move the subscription to the new tenant](https://learn.microsoft.com/en-us/azure/role-based-access-control/transfer-subscription).  Or if you have an existing Azure AD tenant created as part of Office 365 subscription, transfer the subscription to that tenant and assign an administrative role to the subscription. Additionally, make sure you re-create any AAD objects such as users and roles created in the original AAD tenant in the new tenant. 
 
 > **_NOTE:_**  I would strongly recommend doing an impact assessment if you have any existing resources in your current subscription before doing the transfer.
 
@@ -78,5 +78,7 @@ Hopefully, the tips above will help you establish an incredible Azure journey :m
 
 # Oops...I haven't done any of the above and have built everything under my "Default Directory" Azure AD tenant and need access to Microsoft Partner Center
 Please keep an eye on another blog post suggesting ways to remediate this and get yourself selling in Marketplace as soon as possible. Till next time :raised_hands:
+
+**Credit to my colleagues for their opinions and reviews: Matt Furse, Simon Lamb, and Jim Lozanovski.**
 
 **Disclaimer:** *The ideas, opinions, and recommendations expressed in this blog post are those of the author only, and do not necessarily reflect the views of the author’s employer or any other organization. In no event shall the author(s) be liable for any claims or damages or other liability arising from the use of advice given in this blog*
