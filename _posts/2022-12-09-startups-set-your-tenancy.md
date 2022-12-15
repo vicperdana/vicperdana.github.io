@@ -70,11 +70,13 @@ To keep it simple, remove your original Azure AD tenant (the one that was automa
 # Ok, what's next
 Hopefully, the tips above will help you establish an incredible Azure journey :muscle: and there are many resources that can help you build a solid foundation as follows.  
 
-> **_NOTE:_**  the following is a non-exhaustive list of recommendations, notably the Cloud Adoption Framework, which is an amazing resource that you must keep at your disposal as you grow and build more exciting things in Azure. 
+> **_NOTE:_**  the following is a non-exhaustive list of recommendations; notably the Cloud Adoption Framework, is an amazing resource that you must keep at your disposal as you grow and build more exciting things in Azure. 
 
 [Admin and Billing Account](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/design-area/azure-billing-ad-tenant)<br>
 [Landing zone for small-medium scale enterprises](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/treyresearch/README.md)<br>
 [Azure AD Security best practices](https://learn.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices)<br>
+
+Finally, check out the [Startups Founders Hub](https://www.microsoft.com/en-us/startups) and [ISV success program](https://www.microsoft.com/en-us/isv/program-benefits) as there's tons of benefits provided for founders.
 
 # Oops...I haven't done any of the above and have built everything under my "Default Directory" Azure AD tenant and need access to Microsoft Partner Center
 Please keep an eye on another blog post suggesting ways to remediate this and get yourself selling in Marketplace as soon as possible. Till next time :raised_hands:
