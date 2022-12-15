@@ -79,6 +79,6 @@ Hopefully, the tips above will help you establish an incredible Azure journey :m
 # Oops...I haven't done any of the above and have built everything under my "Default Directory" Azure AD tenant and need access to Microsoft Partner Center
 Please keep an eye on another blog post suggesting ways to remediate this and get yourself selling in Marketplace as soon as possible. Till next time :raised_hands:
 
-**Credit to my colleagues for their opinions and reviews: Matt Furse, Simon Lamb, and Jim Lozanovski.**
+*Credit to my colleagues for their opinions and reviews: Matt Furse, Simon Lamb, and Jim Lozanovski.*
 
-**Disclaimer:** *The ideas, opinions, and recommendations expressed in this blog post are those of the author only, and do not necessarily reflect the views of the author’s employer or any other organization. In no event shall the author(s) be liable for any claims or damages or other liability arising from the use of advice given in this blog*
+<sub>**Disclaimer:** *The ideas, opinions, and recommendations expressed in this blog post are those of the author only, and do not necessarily reflect the views of the author’s employer or any other organization. In no event shall the author(s) be liable for any claims or damages or other liability arising from the use of advice given in this blog*<sub>
