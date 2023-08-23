@@ -55,6 +55,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/vperdana/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@vicperdana7585"
 
 footer:
   links:
@@ -67,6 +70,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/vperdana/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@vicperdana7585"
 
 comments:
   provider: "disqus"
