@@ -157,7 +157,7 @@ After successfully integrating the chat service into the Aspire project, the nex
 
 Once deployed, we can test our chat service. By sending queries through the website's chat box, we can observe the assistant's responses. This allows us to verify the functionality of the chat service and ensure that it is providing relevant and accurate responses.
 
-![Screenshot of the complete Aspire Shop frontend](../assets/images/aspireshop-frontend-complete.png)
+![Screenshot of the complete Aspire Shop frontend](/assets/images/aspireshop-frontend-complete.png)
 
 ## Future Improvements and Considerations
 
