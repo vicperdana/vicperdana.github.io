@@ -25,7 +25,7 @@ Together, Semantic Kernel and .NET Aspire provide a powerful combination for bui
 To illustrate the power and flexibility of Semantic Kernel and .NET Aspire, we will build an intelligent assistant in the form of a chat service for an e-commerce website. This assistant will provide instant responses to user queries in a contextually aware manner, significantly enhancing the customer experience on the website.
 
 We're going to use a sample e-commerce website, the Aspire Shop, and add a chat service to it. The chat service will be powered by Azure OpenAI and will interact with the website's catalog service, providing users with relevant product suggestions based on their queries.
-![Screenshot of the architecture](../assets/images/architecture.gif)
+![Screenshot of the architecture](/assets/images/architecture.gif)
 
 ## Implementing the Chat Service: A Step-by-Step Guide 🛠️
 The first step in implementing the chat service is adding the necessary dependencies in our application. These dependencies include the OpenAI extensions, the chat completion service, and the catalog service, which provides access to the product catalog of the e-commerce website.
@@ -179,6 +179,6 @@ For reference, check out the [Project links](#further-resources) below including
 ### Further Resources
 - [AspireShopWithSemanticKernel](https://github.com/vicperdana/AspireShopWithSemanticKernel)
 - See the presentation [slides](https://github.com/vicperdana/AspireShopWithSemanticKernel/blob/main/assets/Reactor.pdf) and the video below for more information on the project.<br/>
-  [![Build AI Apps the easy way using the Semantic Kernel SDK](../assets/images/reactortalk.png)](https://www.youtube.com/watch?v=7xOAc_twiAQ)
+  [![Build AI Apps the easy way using the Semantic Kernel SDK](/assets/images/reactortalk.png)](https://www.youtube.com/watch?v=7xOAc_twiAQ)
 
 
