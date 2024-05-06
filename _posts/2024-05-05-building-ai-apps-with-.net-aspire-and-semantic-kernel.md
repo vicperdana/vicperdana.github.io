@@ -23,7 +23,7 @@ Together, Semantic Kernel and .NET Aspire provide a powerful combination for bui
 ## Building an Intelligent Assistant: The Breakdown 🏛️
 To illustrate the power and flexibility of Semantic Kernel and .NET Aspire, we will build an intelligent assistant in the form of a chat service for an e-commerce website. This assistant will provide instant responses to user queries in a contextually aware manner, significantly enhancing the customer experience on the website.
 
-We're going to use a sample e-commerce website, the Aspire Shop, and add a chat service to it. The chat service will be powered by Azure OpenAI and will interact with the website's catalog service, providing users with relevant product suggestions based on their queries.
+We're going to use a sample e-commerce website, the [Aspire Shop](https://github.com/dotnet/aspire-samples/tree/main/samples/AspireShop), and add a chat service to it. The chat service will be powered by Azure OpenAI and will interact with the website's catalog service, providing users with relevant product suggestions based on their queries.
 ![Screenshot of the architecture](/assets/images/architecture.gif)
 
 ## Implementing the Chat Service: A Step-by-Step Guide 🛠️
@@ -151,6 +151,7 @@ builder.AddProject<Projects.AspireShop_Frontend>("frontend")
     .WithExternalHttpEndpoints();
 ...
 ```
+> **_NOTE:_** The above code snippets are simplified for illustration purposes. For a complete implementation including Catalog API and Frontend modifications, refer to the [Aspire Shop with Semantic Kernel repository](https://github.com/vicperdana/AspireShopWithSemanticKernel).
 
 ## Deploying the Application: Bring Your Intelligent Assistant to Life! 🚀🚀🚀
 After successfully integrating the chat service into the Aspire project, the next step is deploying our application. We have two options for deploying our application to Azure: the Azure Developer CLI or GitHub Actions. Both offer seamless deployment and allow us to get our intelligent assistant up and running.
@@ -175,9 +176,16 @@ As these frameworks evolve, new features such as improved data indexing in Seman
 
 For reference, check out the [Project links](#further-resources) below including my recent Reactor presentation. Keep exploring and learning in this ever-evolving field!
 
-### Further Resources
-- [AspireShopWithSemanticKernel](https://github.com/vicperdana/AspireShopWithSemanticKernel)
+## Further Resources
+- [AspireShop With Semantic Kernel Repository](https://github.com/vicperdana/AspireShopWithSemanticKernel)
 - See the presentation [slides](https://github.com/vicperdana/AspireShopWithSemanticKernel/blob/main/assets/Reactor.pdf) and the video below for more information on the project.<br/>
   [![Build AI Apps the easy way using the Semantic Kernel SDK](/assets/images/reactortalk.png)](https://www.youtube.com/watch?v=7xOAc_twiAQ)
+
+### Acknowledgements
+This project uses the [Aspire Shop](https://github.com/dotnet/aspire-samples/tree/main/samples/AspireShop) sample as the basis. Additionally, the following resources were used as references:
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+- [Semantic Kernel DevBlogs Dependency Injection](https://devblogs.microsoft.com/semantic-kernel/using-semantic-kernel-with-dependency-injection/)
+- [.NET Aspire Discussions](https://github.com/dotnet/aspire/discussions)
+- [Semantic Kernel Discord](https://aka.ms/SKDiscord)
 
 
