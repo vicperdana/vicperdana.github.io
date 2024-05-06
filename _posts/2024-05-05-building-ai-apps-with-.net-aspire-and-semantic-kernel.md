@@ -10,7 +10,6 @@ tags:
   - ai
 ---
 
-# Building AI Apps the Easy Way with Semantic Kernel and .NET Aspire
 Hello, Cloud Native and AI enthusiasts! Today, we will delve into the fascinating world of AI applications. Specifically, we will explore how we can build AI applications with ease using the Semantic Kernel and .NET Aspire. So, if you're excited about creating intelligent, scalable, and efficient apps, keep reading.
 
 ## Understanding Semantic Kernel and .NET Aspire 🤖
