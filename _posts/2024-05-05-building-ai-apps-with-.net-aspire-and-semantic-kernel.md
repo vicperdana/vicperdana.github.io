@@ -1,5 +1,5 @@
 ---
-title: "Building AI Apps the Easy Way with Semantic Kernel and .NET Aspire"
+title: "Build AI Apps the Easy Way with Semantic Kernel and .NET Aspire"
 excerpt_separator: "<!--more-->"
 layout: single
 toc: true
