@@ -9,6 +9,9 @@ categories:
 tags:
   - ai
 ---
+[![vicperdana - AspireShopWithSemanticKernel](https://img.shields.io/static/v1?label=vicperdana&message=AspireShopWithSemanticKernel&color=blue&logo=github)](https://github.com/vicperdana/AspireShopWithSemanticKernel "Go to GitHub repo")
+[![stars - AspireShopWithSemanticKernel](https://img.shields.io/github/stars/vicperdana/AspireShopWithSemanticKernel?style=social)](https://github.com/vicperdana/AspireShopWithSemanticKernel)
+[![forks - AspireShopWithSemanticKernel](https://img.shields.io/github/forks/vicperdana/AspireShopWithSemanticKernel?style=social)](https://github.com/vicperdana/AspireShopWithSemanticKernel)
 
 Hello, Cloud Native and AI enthusiasts! Today, we will delve into the fascinating world of AI applications. Specifically, we will explore how we can build AI applications with ease using the Semantic Kernel and .NET Aspire. So, if you're excited about creating intelligent, scalable, and efficient apps, keep reading.
 
@@ -177,13 +180,16 @@ As these frameworks evolve, new features such as improved data indexing in Seman
 For reference, check out the [Project links](#further-resources) below including my recent Reactor presentation. Keep exploring and learning in this ever-evolving field!
 
 ## Further Resources
-- [AspireShop With Semantic Kernel Repository](https://github.com/vicperdana/AspireShopWithSemanticKernel)
+- [![vicperdana - AspireShopWithSemanticKernel](https://img.shields.io/static/v1?label=vicperdana&message=AspireShopWithSemanticKernel&color=blue&logo=github)](https://github.com/vicperdana/AspireShopWithSemanticKernel "Go to GitHub repo")
+  [![stars - AspireShopWithSemanticKernel](https://img.shields.io/github/stars/vicperdana/AspireShopWithSemanticKernel?style=social)](https://github.com/vicperdana/AspireShopWithSemanticKernel)
+  [![forks - AspireShopWithSemanticKernel](https://img.shields.io/github/forks/vicperdana/AspireShopWithSemanticKernel?style=social)](https://github.com/vicperdana/AspireShopWithSemanticKernel)
+
 - See the presentation [slides](https://github.com/vicperdana/AspireShopWithSemanticKernel/blob/main/assets/Reactor.pdf) and the video below for more information on the project.<br/>
   [![Build AI Apps the easy way using the Semantic Kernel SDK](/assets/images/reactortalk.png)](https://www.youtube.com/watch?v=7xOAc_twiAQ)
 
 ### Acknowledgements
 This project uses the [Aspire Shop](https://github.com/dotnet/aspire-samples/tree/main/samples/AspireShop) sample as the basis. Additionally, the following resources were used as references:
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) 
 - [Semantic Kernel DevBlogs Dependency Injection](https://devblogs.microsoft.com/semantic-kernel/using-semantic-kernel-with-dependency-injection/)
 - [.NET Aspire Discussions](https://github.com/dotnet/aspire/discussions)
 - [Semantic Kernel Discord](https://aka.ms/SKDiscord)
